@@ -7,7 +7,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
 dist
 dist-ssr
 *.local
@@ -25,6 +24,9 @@ dist-ssr
 
 # Environment variables
 .env
+backend/.env
+
+node_modules/
 
 # Backend node modules
 backend/node_modules/
@@ -37,3 +39,5 @@ frontend/dist/
 
 # OS files
 Thumbs.db
+
+temp/
